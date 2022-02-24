@@ -1,0 +1,8 @@
+siteTitle="OpenPOA (OP) - Fast & Reliable Ethereum Sidechain with known independent validators"
+linkPrefix = ""
+theme="violet"
+themeSecondary="violet"
+[[menuItems]]
+name = "Github"
+link = "https://github.com/openpoa"
+icon = "icon github"

@@ -1,0 +1,45 @@
+{
+  "name": "openpoa-web",
+  "description": "OpenPOA (OP) - Fast & Reliable Ethereum Sidechain with known independent validators",
+  "version": "0.0.1",
+  "author": "Stephen Arsenault <hashguide@thecryptoist.com> cloned from Chris Hitchcott <chris@hitchcott.com>",
+  "dependencies": {
+    "config": "^3.3.3",
+    "gatsby": "^0.12.38",
+    "react-document-title": "^2.0.1",
+    "semantic-ui-react": "^0.67.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-config-standard-react": "^4.3.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-help": "^1.6.1",
+    "semantic-ui": "^2.2.9"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "rm -rf ./docs; gatsby build --prefix-links;echo 'End of Gatsby build' && echo '*************'; echo 'Moving public to docs' && mv ./public ./docs;echo 'Copying CNAME to docs folder' && cp ./CNAME ./docs/CNAME;echo 'Copying favicon.png to docs folder' && cp ./assets/favicon.png ./docs/favicon.png",
+    "build-css": "cd semantic/; gulp build; cd ../;",
+    "watch-css": "cd semantic/; gulp watch; cd ../;"
+  },
+  "main": "html.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openpoa/openpoa.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openpoa/openpoa.github.io/issues"
+  },
+  "homepage": "https://github.com/openpoa/openpoa.github.io#readme"
+}

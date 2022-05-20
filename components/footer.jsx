@@ -10,7 +10,7 @@ export default class Footer extends Component {
             <Grid>
               <Grid.Column width={16} textAlign='center'>
                 <Icon name='birthday' />
-                OpenPOA (OP) was once known as POA Network, which launched on 12/15/17
+                OpenPOA Network (POA) originally deployed as POA Network, launched on 12/15/17
               </Grid.Column>
             </Grid>
           </Container>

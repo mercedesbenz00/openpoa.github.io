@@ -16,8 +16,8 @@ export default class Faucet extends Component {
           3. Develop!
           <Header.Subheader>Deploy your Contracts</Header.Subheader>
         </Header>
-        <p>Once you have a Connection Method and some OP Coins, you're ready to go!</p>
-        <p>The Ethereum development ecosystem is ever-growing and you can use many of the same tools that you're already familiar with.</p>
+        <p>Once you have a Connection Method and some POA Coins, you're ready to go!</p>
+        <p>The Ethereum Virtual Machine (EVM) development ecosystem is ever-growing allowing you to use any of the same tools that you're already familiar with.</p>
           <p>OpenPOA uses Solidity for on-chain smart contracts. This opens up endless opportunities for its developers, community & users to migrate their existing habits onto OpenPOA Sokol Testnet & Core Mainnet.</p>
         <Header as='h4' content='Truffle' inverted />
         <p>Truffle is the most popular development framework for Ethereum. You can connect to OpenPOA Chains using one of the following methods:</p>

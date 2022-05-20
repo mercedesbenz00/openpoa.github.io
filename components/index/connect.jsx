@@ -5,7 +5,7 @@ import LinkButton from '../link_button'
 const MetamaskConfig = `Network Name: OpenPOA Sokol Testnet
 New RPC URL: https://sokol.openpoa.com/
 Chain ID: 77
-Currency Symbol: OP
+Currency Symbol: POA
 Block Explorer URL: https://sokol.explorer.openpoa.com/`
 
 export default class Connect extends Component {

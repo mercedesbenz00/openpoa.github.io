@@ -3,7 +3,6 @@ import DocumentTitle from 'react-document-title'
 
 import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
-import {AldFavicon} from './assets/favicon.png'
 
 const BUILD_TIME = new Date().getTime()
 

@@ -1,6 +1,6 @@
 {
   "name": "openpoa-web",
-  "description": "OpenPOA (OP) - Fast & Reliable Ethereum Sidechain with known independent validators",
+  "description": "OpenPOA (POA) - Fast & Reliable Ethereum Sidechain with known independent validators",
   "version": "0.0.1",
   "author": "Stephen Arsenault <hashguide@thecryptoist.com> cloned from Chris Hitchcott <chris@hitchcott.com>",
   "dependencies": {

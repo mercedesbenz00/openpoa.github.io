@@ -12,17 +12,17 @@ export default class Faucet extends Component {
           <Header.Subheader>OpenPOA Faucet Services</Header.Subheader>
         </Header>
         <Header as='h4' content='Automated Faucets' inverted />
-        <p>Automated Faucet Services will be available for use soon! For now, please request some OP test coins using one of the methods below:</p>
-        <Header as='h4' content='Request Testnet OP Coins by email' inverted />
+        <p>Automated Faucet Services will be available for use soon! For now, please request some POA test coins using one of the methods below:</p>
+        <Header as='h4' content='Request Testnet POA Coins by email' inverted />
         <p>To start developing or to experience the speed, reliability & convenience of OpenPOA's Blockchains, send a request below.</p>
-        <LinkButton to='mailto:devs@openpoa.com' content='Request Free Testnet OP' basic inverted />
+        <LinkButton to='mailto:devs@openpoa.com' content='Request Free Testnet POA' basic inverted />
         <Header as='h4' content='Need more coins for testing?' inverted />
-        <p>Prominent contributers can receive larger amounts of Testnet OP for larger projects or request Mainnet OP coins for dapp deployment for use with partnership opportunities.</p>
+        <p>Prominent contributers can receive larger amounts of Testnet POA for larger projects or request Mainnet POA coins for dapp deployment for use with partnership opportunities.</p>
         <Header as='h4' content='Request in Telegram Chat' inverted />
         <p>
-          You can also request some Testnet OP Coins in the OpenPOA Telegram support channel.{' '}
+          You can also request some Testnet POA Coins in the OpenPOA Telegram support channel.{' '}
         </p>
-        <LinkButton to='https://t.me/openpoa' content='Request Testnet OP in Telegram' basic inverted />
+        <LinkButton to='https://t.me/openpoa' content='Request Testnet POA in Telegram' basic inverted />
 
       </Grid.Column>
     )

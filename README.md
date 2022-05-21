@@ -1,3 +1,3 @@
-# OpenPOA (OP) - The Orginal Ethereum Sidechain
+# OpenPOA (POA) - The Orginal Ethereum Sidechain
 
 ### OpenPOA Home Webpage Repo

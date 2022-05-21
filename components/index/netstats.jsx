@@ -17,7 +17,7 @@ export default class Netstats extends Component {
           to='https://sokol.netstats.openpoa.com/'
         />
         <br /><br />
-        <p>View comprehensive realtime statistics about the state of OpenPOA Chains on the authorities netstats page to realize the consistency & resilience of OP Blockchains.</p>
+        <p>View comprehensive realtime statistics about the state of OpenPOA Chains on the authorities netstats page to realize the consistency & resilience of POA Blockchains.</p>
       </Grid.Column>
     )
   }
